@@ -3,7 +3,7 @@ def turn_count(board)
   board.each{ |index|
     if index =="X" || index=="O"
       turn+=1
-    end    
+    end
   }
   return turn
 end
@@ -11,4 +11,3 @@ end
 def current_player(board)
 
 end
-
